@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduBot — AI Tutor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <span class="bot-icon">🎓</span>
+      <div>
+        <h1>EduBot</h1>
+        <p>Your AI Learning Assistant</p>
+      </div>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+      <div class="message bot">
+        <span class="bubble">Hi! I'm EduBot 🎓 — your personal AI tutor. Ask me anything you want to learn about!</span>
+      </div>
+    </div>
+
+    <form id="chat-form" class="chat-form">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Ask me anything..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

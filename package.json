@@ -1,0 +1,19 @@
+{
+  "name": "gemini-education-chatbot",
+  "version": "1.0.0",
+  "description": "An AI-powered education chatbot using Google Gemini 2.5 Flash",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["chatbot", "gemini", "ai", "education"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  }
+}
